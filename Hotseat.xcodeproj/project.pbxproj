@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		373D51311FE5767800BCDF0F /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D512F1FE5767800BCDF0F /* PreferencesWindow.swift */; };
 		373D51321FE5767800BCDF0F /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373D51301FE5767800BCDF0F /* PreferencesWindow.xib */; };
+		3784B8FD1FE5B62B0021FECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BCD8F61FDEF58900AEF006 /* Assets.xcassets */; };
 		37BCD8F51FDEF58900AEF006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BCD8F41FDEF58900AEF006 /* AppDelegate.swift */; };
-		37BCD8F71FDEF58900AEF006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BCD8F61FDEF58900AEF006 /* Assets.xcassets */; };
 		37BCD8FA1FDEF58900AEF006 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BCD8F81FDEF58900AEF006 /* MainMenu.xib */; };
 		37BCD9031FDF176E00AEF006 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BCD9021FDF176E00AEF006 /* StatusMenuController.swift */; };
 		37BCD9071FE19BE200AEF006 /* Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BCD9061FE19BE200AEF006 /* Discovery.swift */; };
@@ -139,8 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BCD8F71FDEF58900AEF006 /* Assets.xcassets in Resources */,
 				373D51321FE5767800BCDF0F /* PreferencesWindow.xib in Resources */,
+				3784B8FD1FE5B62B0021FECE /* Assets.xcassets in Resources */,
 				37BCD8FA1FDEF58900AEF006 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +287,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Hotseat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.drezy.Hotseat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -301,6 +302,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Hotseat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.drezy.Hotseat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
