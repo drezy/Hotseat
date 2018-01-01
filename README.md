@@ -15,7 +15,7 @@ If not, you may find Hotseat useful.
 
 ## Motivation
 
-The avarage wifi indicator only reports the signal strength of the network you are currently connected to.  
+The average wifi indicator only reports the signal strength of the network you are currently connected to.  
 If there is a spiffy new Industrio-megapower-wifi-5000 unit in that cheap drop ceiling right 4 feet from your head it'd be kinda nice to know.
 
 ## Installation
@@ -24,4 +24,4 @@ The OSX dmg installer is [here](https://github.com/drezy/Hotseat/releases/downlo
 
 
 ## License
-This project is licensed und the MIT License.
+This project is licensed under the MIT License.
