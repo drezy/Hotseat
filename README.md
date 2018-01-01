@@ -20,7 +20,7 @@ If there is a spiffy new Industrio-megapower-wifi-5000 unit in that cheap drop c
 
 ## Installation
 
-The OSX dmg installer is here.
+The OSX dmg installer is [here](https://github.com/drezy/Hotseat/releases/download/0.2/Hotseat.dmg)
 
 
 ## License
